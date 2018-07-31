@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10538" started-at="2018-07-30T17:08:58Z" finished-at="2018-07-30T17:09:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10538" started-at="2018-07-30T17:08:58Z" finished-at="2018-07-30T17:09:09Z">
+      <class name="demo.com.DemoTests">
+        <test-method status="PASS" signature="guiTitleVerify()[pri:0, instance:demo.com.DemoTests@36f6e879]" name="guiTitleVerify" duration-ms="10525" started-at="2018-07-30T17:08:58Z" finished-at="2018-07-30T17:09:09Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
