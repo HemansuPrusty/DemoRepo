@@ -10,9 +10,10 @@ public class DemoTests {
 	
 	@Test
 	public void guiTitleVerify(){
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\geckodriver.exe");
-		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new HtmlUnitDriver();
 		driver.get("http://www.toolsqa.com");
 		String st = driver.findElement(By.xpath("//span[text()='HOME']")).getText();
 		System.out.println("************Expected Title****************  :" +st);
