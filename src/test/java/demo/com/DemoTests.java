@@ -16,7 +16,7 @@ public class DemoTests {
 		WebDriver driver = new HtmlUnitDriver();
 		driver.get("http://www.toolsqa.com");
 		String st = driver.findElement(By.xpath("//span[text()='HOME']")).getText();
-		System.out.println("************Expected Title****************  :" +st);
+		System.out.println("************Expected Title****************:" +st);
 		Assert.assertEquals(st, "HOME");
 		driver.close();
 	}
